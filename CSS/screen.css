@@ -62,7 +62,7 @@ header a.logo{
     display: block;
     width: 160px;
     height: 58px;
-    background: url("../images/logo.svg") no-repeat 0 0;
+    background: url("/IMAGES/logo.svg") no-repeat 0 0;
     background-size: contain;
     left: 12px;
     top: 20px;
