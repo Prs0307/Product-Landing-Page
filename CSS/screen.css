@@ -3,16 +3,17 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
-    font-size: 16PX;
+    font-size: 1.1rem;
     font-weight: 300;
-    color: #555;
+    color: #585454;
     margin: 0;
     padding: 0;
 
 }
 #page{
-    /* max-width: 1200px; */
-    width: 100%;
+    height: 100vh;
+    max-width: 1200px;
+    /* width: 100%; */
     margin: 0,auto;
     position: relative;
 }
@@ -51,9 +52,12 @@ a.btn:hover{ background-color: rgba(0, 0, 0, .3); transition: 0.5s;}
 /* Header */
 
 header{
+    
     height: 430px;
-    background: rgb(236, 40, 40) url("../IMAGES/banner_1200.jpg") no-repeat center bottom;
-    position: relative; ;
+    margin: 0 auto;
+    background: rgb(255, 255, 255) url("../IMAGES/banner_1200.jpg") no-repeat center bottom;
+    position: relative;
+    
 }
 
 header a.logo{
